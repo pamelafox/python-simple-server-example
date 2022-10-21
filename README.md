@@ -5,8 +5,17 @@ This repository includes a very simple Python web site, made for demonstration p
 To try it out:
 
 1. Open this repository in Codespaces
+2. Run the server:
+
+```console
+python server.py
+```
+
 2. Click 'http://0.0.0.0:8080' in the terminal, which should open the website in a new tab
 3. Type different paths after the URL to see the effect on the GET requests in the logs
 4. Try POSTing data by sending HTTP POST requests in the JS console:
-```fetch('/', {method: 'POST', body: 'posted data'})```
+
+```console
+fetch('/', {method: 'POST', body: 'posted data'})
+```
 
